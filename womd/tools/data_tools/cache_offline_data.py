@@ -21,7 +21,8 @@ from tensorboardX import SummaryWriter
 from betopnet.datasets import build_dataloader
 from betopnet.config import cfg, cfg_from_list, cfg_from_yaml_file, log_config_to_file
 from betopnet.utils import common_utils
-from betopnet.models import model as model_utils
+# from betopnet.models import model as model_utils
+from betopnet.models import utils as model_utils
 
 from train_utils.train_utils import train_model
 import numpy as np
