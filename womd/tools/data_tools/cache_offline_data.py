@@ -5,7 +5,10 @@ Behavioral Topology (BeTop): https://arxiv.org/abs/2409.18031
 Mostly from Motion Transformer (MTR): https://arxiv.org/abs/2209.13508
 '''
 
-import _init_path
+# import _init_path
+import sys
+sys.path.insert(0, '../')
+
 import argparse
 import datetime
 import glob
